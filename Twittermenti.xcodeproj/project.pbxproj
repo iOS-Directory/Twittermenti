@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0413C1FE24361AAC00B3DE86 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0413C1F4243619CB00B3DE86 /* SwifteriOS.framework */; };
 		0413C1FF24361AAC00B3DE86 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0413C1F4243619CB00B3DE86 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0413C2022436249500B3DE86 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0413C2012436249500B3DE86 /* Secrets.plist */; };
 		045F472524343A47008D39B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F472424343A47008D39B8 /* AppDelegate.swift */; };
 		045F472724343A47008D39B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F472624343A47008D39B8 /* SceneDelegate.swift */; };
 		045F472924343A47008D39B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F472824343A47008D39B8 /* ViewController.swift */; };
@@ -72,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		0413C1EB243619CB00B3DE86 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Resources/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		0413C2012436249500B3DE86 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		045F472124343A47008D39B8 /* Twittermenti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twittermenti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045F472424343A47008D39B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045F472624343A47008D39B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				04D94EC224345062008A93C1 /* TweetSentimentClasifier.mlmodel */,
 				045F472F24343A4F008D39B8 /* LaunchScreen.storyboard */,
 				045F473224343A4F008D39B8 /* Info.plist */,
+				0413C2012436249500B3DE86 /* Secrets.plist */,
 			);
 			path = Twittermenti;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0413C2022436249500B3DE86 /* Secrets.plist in Resources */,
 				045F473124343A4F008D39B8 /* LaunchScreen.storyboard in Resources */,
 				045F472E24343A4F008D39B8 /* Assets.xcassets in Resources */,
 				045F472C24343A47008D39B8 /* Main.storyboard in Resources */,
